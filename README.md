@@ -1,3 +1,3 @@
 # nwb-elm-app
 
-Describe nwb-elm-app here.
+Elm app template for nwb.

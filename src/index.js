@@ -1,3 +1,4 @@
-let app = document.querySelector('#app')
+require('./index.css');
 
-app.innerHTML = '<h2>Welcome to nwb-elm-app</h2>'
+const Elm = require('./Main.elm');
+const app = Elm.Main.embed(document.querySelector('#app'));

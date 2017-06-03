@@ -1,22 +1,22 @@
 {
   "name": "nwb-elm-app",
   "version": "1.0.0",
-  "description": "Describe nwb-elm-app here",
+  "description": "Elm app template for nwb",
   "private": true,
   "scripts": {
     "build": "nwb build-web-app",
     "clean": "nwb clean-app",
     "start": "nwb serve-web-app --reload",
-    "test": "nwb test",
-    "test:coverage": "nwb test --coverage",
-    "test:watch": "nwb test --server"
+    "test": "elm test",
+    "test:watch": "elm test --watch"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "elm-test": "^0.18.4",
+    "elm-webpack-loader": "^4.3.1",
     "nwb": "0.16.x"
   },
-  "author": "",
-  "license": "MIT",
-  "repository": ""
+  "repository": "https://github.com/dtcristo/nwb-elm-app.git",
+  "author": "David Cristofaro",
+  "license": "MIT"
 }
