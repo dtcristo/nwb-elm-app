@@ -12,9 +12,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "elm-test": "^0.18.4",
+    "elm-test": "^0.18.9",
     "elm-webpack-loader": "^4.3.1",
-    "nwb": "0.16.x"
+    "nwb": "0.18.x"
   },
   "repository": "https://github.com/dtcristo/nwb-elm-app.git",
   "author": "David Cristofaro",
