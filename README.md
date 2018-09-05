@@ -1,5 +1,7 @@
 # nwb-elm-app
 
+**DEPRICATED: nwb-elm-app is no-longer supported. Use [create-elm-app](https://github.com/halfzebra/create-elm-app) instead.**
+
 An empty Elm project, with all the tools required for production builds. [nwb](https://github.com/insin/nwb) provides a wrapper around [Webpack](https://webpack.js.org/) (and other tools) that limits the amount of config and boilerplate needed.
 
 This template includes many built in features for your convenience, without the need for configuration:
